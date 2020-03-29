@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<meta charset="UTF-8">
+<title>exo1</title>
+<link rel="stylesheet" href="EXO1.css">
+</head> 
+<body>
+<h1>***Algorithme lancé***</h1><br>
+<h3>calculs statistiques</h3><br>
+<p> entrer votre age :</P><br>
+
+
+<label for="age">entrer votre age (0-112):</label>
+
+<input type="number" id="age" name="age" min="0" max="112" onclick="affiche_text()">
+<input type="button" value="Bouton cliquer" onclick="affiche_text()">
+
+
+<p>vous avez un statut<p>
+
+<p id="reponse"><p>
+
+<p>voulez vous recommencez</p>
+<input type="button" value="remise a zero" onclick="remise_a_zero()">
+<!-- le bouton remet l'age a zero ET efface le message> -->
+
+<p id="resultats"></p>
+<p id="debug"></p>
+
+<script src="conditionage.js"></script>
+</body>
+</html>
